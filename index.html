@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="icon" href="img/icons/iconyoutube.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <header>
+            <div id="banner-start">
+                <img id="icon-hamburger" src="img/icons/hamburger.svg">
+                <span><img id="iconyoutube" src="img/icons/youtube.svg">FR</span>
+            </div>
+
+            <div id="banner-center">
+                <div id="barre-de-recherche">
+                    <input id="search-barre" placeholder="Rechercher..." type="search" >
+                    <img id="iconloupe" src="img/icons/loupe.svg">
+                </div>
+              
+                <img id="micro" src="img/icons/micro.svg">
+                
+            </div>
+
+            <div id="banner-end">
+                <button class="boutton"><img id="troisp" src="img/icons/3petitpoints.svg"></button>
+                <button id="bouton-connexion">
+                    <img id="icon-vous" src="img/icons/vous.svg"> 
+                    <span id="lien-vous-connexion">Se connecter</span>
+                </button>
+            </div>          
+     </header>
+    
+<!--NAV-BARRE LATÉRAL-->
+    <div id="page-principal">
+        <aside id="sidebar">
+            <nav id="nav" aria-label="Navigation-principale">
+                <section class="section-items"> 
+                    <a  class="item item-hover page-actif">
+                        <img src="img/icons/accueil.svg" class="icon-lateral">
+                        <span> Accueil</span> 
+                    </a>
+                    <a class="item item-hover">
+                        <img src="img/icons/shorts.svg" class="icon-lateral">
+                        <span> Short</span> 
+                    </a>
+                     <a class="item item-hover">
+                        <img src="img/icons/abonnements.svg" class="icon-lateral">
+                        <span> Abonnement</span> 
+                    </a>
+                     <a  class="item item-hover">
+                        <img src="img/icons/vous-blanc.svg" class="icon-lateral">
+                        <span> Vous</span> 
+                    </a>
+                     <a  class="item item-hover">
+                        <img src="img/icons/historique.svg" class="icon-lateral">
+                        <span> Historique</span> 
+                    </a>                   
+                </section>
+
+                <section id="connexion-nav">
+                    <p id="paragraph-connexion">Connectez-vous à YouTube pour cliquer sur "J'aime", ajouter un commentaire et vous abonner.</p>
+                    <button id="bouton-connexion">
+                        <img id="icon-vous" src="img/icons/vous.svg"> 
+                        <span id="lien-vous-connexion">Se connecter</span>
+                    </button>
+                </section>
+
+                <section class="section-explorer">
+                    <span class="h3">Explorer</span>
+                    <a class="item">
+                        <img src="img/icons/musique.svg" class="icon-lateral">
+                        <span> Musique</span> 
+                    </a>  
+                    <a class="item">
+                        <img src="img/icons/direct.svg" class="icon-lateral">
+                        <span> Direct</span> 
+                    </a>    
+                    <a class="item">
+                        <img src="img/icons/jeux-videos.svg" class="icon-lateral">
+                        <span> Jeux vidéo</span> 
+                    </a> 
+                    <a class="item">
+                        <img src="img/icons/plus.svg" class="icon-lateral">
+                        <span> Plus</span> 
+                    </a> 
+                 </section>
+
+                <section id="autres">
+                    <span class="h3">Autres contenus Youtube</span>
+                    <a class="item">
+                        <img src="img/icons/iconyoutube.svg" class="icon-lateral">
+                        <span> Youtube Premium</span> 
+                    </a> 
+                    <a class="item">
+                        <img src="img/icons/icon-youtube-music.svg" class="icon-lateral">
+                        <span> Youtube Music</span> 
+                    </a> 
+                    <a class="item">
+                        <img src="img/icons/icon-youtube-kids.svg" class="icon-lateral">
+                        <span> Youtube Kids</span> 
+                    </a> 
+                </section>
+
+                <section id="signalement">
+                    <a class="item">
+                        <img src="img/icons/signalements.svg" class="icon-lateral">
+                        <span> Signalements</span> 
+                    </a> 
+                </section>
+            </nav>
+            <footer id="footer">
+                <div id="links-primary">
+                    <a>Présentation d'auteur</a><a>Nous contacter</a><a>Créateurs</a><a>Publicité</a><a>Développeurs</a>
+                </div>
+                <div id="links-secondary">
+                    <a>Conditions d'utilisation</a>
+                    <a>Règles et sécurité</a>
+                    <a>Premiers pas sur YouTube</a>
+                    <a>Tester de nouvelles fonctionnalités</a>
+                </div>
+                <div id="copyright">
+                    <a>© 2026 Google LLC</a>
+                </div>
+            </footer>
+        </aside>
+        <main id="main">
+        <section id="chipsbar">
+            <span id="chips-list" >
+                <button class="chips" id="bouton-tous">Tous</button>
+                <button class="chips" id="bouton-jeux-video">Jeux vidéo</button>
+                <button class="chips" id="bouton-musique">Musique</button>
+                <button class="chips" id="bouton-en-direct">En direct</button>
+                <button class="chips" id="bouton-actus">Actualités</button>
+                <button class="chips" id="bouton-monetisation">Monétisation</button>
+                <button class="chips" id="bouton-podcast">Podcast</button>
+                <button class="chips" id="bouton-ia">Intelligence artificielle</button>
+                <button class="chips" id="bouton-minecraft">Modding Minecraft</button>
+                <button class="chips" id="bouton-histoire">Histoire</button>
+                <button class="chips" id="bouton-algebre">Algèbre</button>
+                <button class="chips" id="bouton-gadgets">Gagdets</button>
+                <button class="chips" id="bouton-rpg">Jeux de rôle</button>
+                <button class="chips" id="bouton-son">Bande son</button>
+                <button class="chips" id="bouton-presentation">Présentations</button>
+                <button class="chips" id="bouton-animations">Animations</button>
+                <button class="chips" id="bouton-comedies">Comédies</button>
+                <button class="chips" id="bouton-sciences">Sciences</button>
+                <button class="chips" id="bouton-football">Ballon de football</button>
+                <button class="chips" id="bouton-last-pub">Publiées récemment</button>
+            </span>
+            
+            
+        </section>
+        <section id="flex-videos">
+
+            <div class="card-pub">
+                <div class="miniature">
+                    <img class="miniature" src="img/miniatures/cleanmymac-miniature.jpg"> 
+                    <img class="arrow-icon" src="img/icons/arrowlink.svg">
+                </div>
+                <div class="info-card">
+                    <div class="pdp-info-pub">
+                        <div class="info-text-vid">
+                            <h3 class="titre-pub">Boîte mail chaotique ? 7 jours offerts</h3>
+                            <div class="info-ad">
+                                <p> 
+                                    <p class="info-sup-ad"> Ça a sauvé ma boîte mail. 2 000+ e-mails effacés en masse. Testez CleanMyMac.</p>
+                                    <span class=sponsor-orga>
+                                        <div class="sponsor">Sponsorisé · </div> 
+                                        <p> CleanMyMac </p>
+                                    </span>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="troisp-vid" src="img/icons/3petitpoints.svg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="miniature">
+                    <img class="miniature" src="img/miniatures/PXk3ODGSzaE&list=RDPXk3ODGSzaE&start_radio=1-rnb-playlist-hq720.jpg"> 
+                    <span class="vid-time"> <img src="img/icons/song.svg"> 50:38</span>
+                </div>
+                <div class="info-card">
+                    <div class="pdp-info-vid">
+                        <img class="pdp-vid" src="img/pdp/thaigui-channels4_profile.jpg">
+                        <div class="info-text-vid">
+                            <h3 class="titre-vid">Late Night Feels Playlist (pt.6) | Kehlani, Summer Walker, Drake, Chris Brown, SZA , H.E.R</h3>
+                            <div class="info-pub">
+                                <p> 
+                                    <span class="nom-chaine">thaiguy</span>
+                                    <span class="vue-vid"><img class="icon-view" src="img/icons/views.svg">1,2 M</span>
+                                    <span class="date-vid">il y a 10 mois.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="troisp-vid" src="img/icons/3petitpoints.svg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="miniature">
+                    <img class="miniature" src="img/miniatures/me-at-the-zoo-hqdefault.jpg"> 
+                    <span class="vid-time">0:19</span>
+                </div>
+                <div class="info-card">
+                    <div class="pdp-info-vid">
+                        <img class="pdp-vid" src="img/pdp/jawed-channels4_profile.jpg">
+                        <div class="info-text-vid">
+                            <h3 class="titre-vid">Me at the zoo</h3>
+                            <div class="info-pub">
+                                <p> 
+                                    <span class="nom-chaine">jawed</span>
+                                    <span class="vue-vid"><img class="icon-view" src="img/icons/views.svg">441 M</span>
+                                    <span class="date-vid">il y a 21 a.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="troisp-vid" src="img/icons/3petitpoints.svg">
+                </div>
+            </div>
+            <div class="card">
+                <div class="miniature">
+                    <img class="miniature" src="img/miniatures/RtOzbQNlYF8-videos-cloudy-hq720.jpg"> 
+                    <span class="vid-time">21:07</span>
+                </div>
+                <div class="info-card">
+                    <div class="pdp-info-vid">
+                        <img class="pdp-vid" src="img/pdp/cloudy-pdp-channels4_profile.jpg">
+                        <div class="info-text-vid">
+                            <h3 class="titre-vid">THE GREATEST ASH GAME OF SEASON 30...</h3>
+                            <div class="info-pub">
+                                <p> 
+                                    <span class="nom-chaine">  Cloudyatnight</span>
+                                    <span class="vue-vid"><img class="icon-view" src="img/icons/views.svg">62k</span>
+                                    <span class="date-vid">il y a 2 sem.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="troisp-vid" src="img/icons/3petitpoints.svg">
+                </div>
+            </div>
+
+        </section>
+        <div id="groupe-videos"></div>
+        </main>
+    </div>
+     
+
+    
+    
+</body>
+</html>
